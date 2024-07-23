@@ -8,9 +8,12 @@ If you have any questions, please come speak to us on the [Sharp-X discord serve
 
 // TODO
 
+Please check that your addon doesn't contain folders. There should only be files inside your addon.
+
 ## Approval criteria
 
 When the Sharp-X team checks the addons, they will check for the following:
+- The `manifest.ini` format
 - //TODO
 
 ## Submitting

@@ -13,7 +13,8 @@ Please check that your addon doesn't contain folders. There should only be files
 ## Approval criteria
 
 When the Sharp-X team checks the addons, they will check for the following:
-- The `manifest.ini` format
+- The `manifest.ini` format.
+- The version is a whole number (example: 1, 2, 3, ...), we don't allow for decimal versions (example: 0.1, 1.4, 0.6).
 - //TODO
 
 ## Submitting
@@ -26,10 +27,11 @@ When the Sharp-X team checks the addons, they will check for the following:
   Name = Example Addon
   Description = This is an example addon that does nothing.
   Owner = <Your name>
+  Version = 1
   Changelog = Initial Release.
   ```
 
-- Create a PR
+- Create a PR.
 
 ## Updating your addon
 

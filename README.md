@@ -28,9 +28,11 @@ When the Sharp-X team checks the addons, they will check for the following:
   Description = This is an example addon that does nothing.
   Owner = <Your name>
   Version = 1
+  Icon = icon.png
   Changelog = Initial Release.
   ```
 
+- If your addon doesn't have an icon, don't include the `Icon` tag.
 - Create a PR.
 
 ## Updating your addon
